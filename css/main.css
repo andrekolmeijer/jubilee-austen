@@ -1,0 +1,231 @@
+
+/***** BASE STYLES *****/
+
+body {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, header h1, header nav ul, header h2 {
+    margin: 0;
+}
+
+body, header nav ul, #contact ul {
+    padding: 0;
+}
+
+header h1, header h2, #about h2, #work p, #contact h2 {
+    font-family: 'Lora', serif;
+}
+
+header h1, #contact h2, #contact h3#socialmedia-header {
+    font-weight: 700;
+}
+
+header nav ul li, #contact ul li {
+    display: inline-block;
+}
+
+header nav ul li a, #contact a {
+    text-decoration: none;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+#contact h2, #contact h3#email-header, #contact h3#socialmedia-header {
+    line-height: 44px;
+}
+
+.full-width, #work h3 {
+    margin: 0 auto;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/hero.png') no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #BBC085;
+    font-size: 30px;
+    padding: 100px 0 75px 50px;
+}
+
+header nav {
+    padding: 100px 50px 75px 0px;
+}
+
+header nav ul {
+    height: 40px;
+    text-align: right;
+}
+
+header nav ul li {
+    margin: 11px 0;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    margin-left: 80px;
+    text-transform: uppercase;
+}
+
+header a:link, header a:visited, header a:hover {
+    color: #828282;
+}
+
+header a:hover {
+    border-bottom: 2px solid #828282;
+}
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-size: 72px;
+    line-height: 80px;
+    padding-left: 50px;
+    width: 1000px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7F7F7F;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 0 23px 0 50px;
+}
+
+#about p#padding {
+    padding: 0 50px 0 23px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #F8CDB6;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+}
+
+#work p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 42px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #EBEBEB;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 50px;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin: 44px 50px 5px 180px;
+}
+
+#contact h3#email-header {
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0px 50px 5px 180px;
+}
+
+#contact a#margin-mail {
+    margin-left: 180px;
+}
+
+#contact img#envelope {
+    margin: -3px 0;
+    padding-right: 15px;
+}
+
+#contact h3#socialmedia-header {
+    font-size: 29px;
+    margin: 40px 50px 0 180px;
+}
+
+#contact ul {
+    list-style: none;
+    margin: 0 50px 0 180px;
+}
+
+#contact a {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#contact a:link, #contact a:visited, #contact a:hover {
+    color: #C49075;
+}
+
+#contact a:hover {
+    border-bottom: 2px solid #C49075;
+}
+
+#contact a.socialmedia-margin {
+    margin-right: 54px;
+}
+
+#contact a.no-socialmedia-margin {
+    margin-right: 0;
+}
+
+#contact ul img {
+    vertical-align: middle;
+}
